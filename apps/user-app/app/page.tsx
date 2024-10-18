@@ -5,11 +5,9 @@
 // export default function Home() {
 //   // const balance = useGetBalance();
 //   return (
-//     <>
 //       <div className="text-3xl">
 //         {/* {`Balance is ${balance}Rs`} */}hi
 //       </div>
-//     </>
 //   );
 // }
 import { getServerSession } from "next-auth";
