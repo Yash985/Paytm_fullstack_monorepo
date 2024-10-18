@@ -1,5 +1,5 @@
 
-// // import prisma from "@repo/db/client";
+
 // import { useGetBalance } from "@repo/store/useGetBalance";
 // export default function Home() {
 //   // const balance = useGetBalance();
