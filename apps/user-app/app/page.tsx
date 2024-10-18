@@ -1,15 +1,12 @@
 
-// // import { Button } from "@repo/ui/button";
-// // import prisma from "@repo/db/client";
+
 // import { useGetBalance } from "@repo/store/useGetBalance";
 // export default function Home() {
 //   // const balance = useGetBalance();
 //   return (
-//     <>
 //       <div className="text-3xl">
 //         {/* {`Balance is ${balance}Rs`} */}hi
 //       </div>
-//     </>
 //   );
 // }
 import { getServerSession } from "next-auth";
@@ -23,5 +20,4 @@ export default async function Page() {
   } else {
     redirect('/api/auth/signin')
   }
-  
 }
