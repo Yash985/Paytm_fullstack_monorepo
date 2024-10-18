@@ -27,7 +27,7 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      -name: Generate Prisma Client
+      - name: Generate Prisma Client
         run: yarn run db:generate
 
       - name: Run Build
